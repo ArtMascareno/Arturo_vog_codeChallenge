@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace VogCodeChallenge.API.Entities
+namespace Vog.Domain.Entities
 {
     public class Department : Entity
     {
