@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vog.Domain\Vog.Domain.csproj" />
-    <ProjectReference Include="..\VogCodeChallenge.API\VogCodeChallenge.API.csproj" />
   </ItemGroup>
 
 </Project>

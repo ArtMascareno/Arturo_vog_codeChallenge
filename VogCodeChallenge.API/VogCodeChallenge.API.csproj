@@ -2,17 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>0e450ed0-a163-44d5-ae30-a6591815ccde</UserSecretsId>
+    <UserSecretsId>4e594604-9618-4eb3-a7a9-d26820db2193</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\UserInterface\UserInterface.csproj" />
     <ProjectReference Include="..\Vog.Domain\Vog.Domain.csproj" />
   </ItemGroup>
+
 
 </Project>

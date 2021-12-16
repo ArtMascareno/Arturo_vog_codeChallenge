@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{BC37F59A-A31C-495A-94A8-D1C8E65D9FF2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vog.Domain", "Vog.Domain\Vog.Domain.csproj", "{F2197984-4A2A-4FF5-A984-B4D9E01C1732}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{90A03EB7-542B-4FBF-91DC-AD664817B174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{999FAEDF-7827-4B6C-BEB5-716C1F6A3F8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC37F59A-A31C-495A-94A8-D1C8E65D9FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC37F59A-A31C-495A-94A8-D1C8E65D9FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC37F59A-A31C-495A-94A8-D1C8E65D9FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC37F59A-A31C-495A-94A8-D1C8E65D9FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F2197984-4A2A-4FF5-A984-B4D9E01C1732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2197984-4A2A-4FF5-A984-B4D9E01C1732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2197984-4A2A-4FF5-A984-B4D9E01C1732}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{90A03EB7-542B-4FBF-91DC-AD664817B174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A03EB7-542B-4FBF-91DC-AD664817B174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A03EB7-542B-4FBF-91DC-AD664817B174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999FAEDF-7827-4B6C-BEB5-716C1F6A3F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999FAEDF-7827-4B6C-BEB5-716C1F6A3F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999FAEDF-7827-4B6C-BEB5-716C1F6A3F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999FAEDF-7827-4B6C-BEB5-716C1F6A3F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
