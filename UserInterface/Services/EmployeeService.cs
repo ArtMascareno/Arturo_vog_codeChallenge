@@ -20,5 +20,12 @@ namespace UserInterface.Services
             MockData mockData = new MockData();
             return mockData.GetEmployees();
         }
+        
+        public IList<Employee> ListAllByDepartment(int departmentId)
+        {
+            MockData mockData = new MockData();
+            var depEmployees = mockData.GetEmployees().Where(x => x.DepartmentId == departmentId).ToList();
+            return depEmployees;
+        }
     }
 }

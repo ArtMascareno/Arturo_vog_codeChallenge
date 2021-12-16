@@ -9,6 +9,7 @@ namespace UserInterface
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
             var employees = _employeeService.ListAll();
             foreach (var employee in employees)
                 Console.WriteLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - {employee.Address}");

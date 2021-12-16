@@ -7,8 +7,10 @@ namespace Vog.Domain.Entities
 {
     public class Employee : Entity
     {
-        public Employee(string firstName, string lastName, string jobTitle, string address)
+        public Employee(int id,int departmentId, string firstName, string lastName, string jobTitle, string address)
         {
+            Id = id;
+            DepartmentId = departmentId;
             FirstName = firstName;
             LastName = lastName;
             JobTitle = jobTitle;
@@ -18,5 +20,8 @@ namespace Vog.Domain.Entities
         public string LastName { get; set; }
         public string JobTitle { get; set; }
         public string Address { get; set; }
+        
+        public int DepartmentId { get; set; }
+
     }
 }
